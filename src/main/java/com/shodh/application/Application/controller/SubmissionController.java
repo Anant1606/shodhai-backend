@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+@CrossOrigin(origins = "https://https://shodh-anant-assignment.vercel.app/")
 @RestController
 @RequestMapping("/submissions")
 public class SubmissionController {
